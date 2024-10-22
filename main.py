@@ -420,12 +420,13 @@ class ClusterAnalysis:
                 label.set_color('red')
                 label.set_fontweight('bold')
 
-        
+    
         plt.title("Dendrogram of Features")
         plt.xlabel("Feature")
         plt.ylabel("Distance")
         if savefig:
             plt.savefig(output_name, dpi=300)
+            print("саня лох")
             
         plt.show()
 
